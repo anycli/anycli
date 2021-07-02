@@ -1,0 +1,11 @@
+{
+  "require": [
+    <%- ts ? '"ts-node/register"\n' : '\n' _%>
+  ],
+  "watch-extensions": [
+    <%- ts ? '"ts"\n' : '\n' _%>
+  ],
+  "recursive": true,
+  "reporter": "spec",
+  "timeout": 60000
+}
